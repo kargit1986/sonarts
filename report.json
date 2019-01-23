@@ -1,4 +1,0 @@
-
-ERROR: /home/vagrant/progs/sonar-ts-demo/src/hello.component.spec.ts:10:1 - Remove this commented out code.
-ERROR: /home/vagrant/progs/sonar-ts-demo/src/hello.component.ts:8:1 - space indentation expected
-

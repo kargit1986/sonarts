@@ -1,4 +1,0 @@
-
-ERROR: /home/vagrant/progs/sonar-ts-demo/src/hello.component.ts:10:1 - Consecutive blank lines are forbidden
-ERROR: /home/vagrant/progs/sonar-ts-demo/src/hello.component.ts:12:1 - space indentation expected
-
