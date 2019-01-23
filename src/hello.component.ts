@@ -7,9 +7,6 @@ export class HelloComponent {
         return "bye";
     }
 
-    public sayAnotherthing(): string {
-		return "another thing";
-    }
 
     public sayAnotherthing2(): string {
 		return "another thing 2";
