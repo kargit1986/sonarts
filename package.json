@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "karma start",
-    "lint": "tslint --project tsconfig.json -o lintreport.json -c tslint.json 'src/**/*.ts'",
+    "lint": "tslint --project tsconfig.json -o lint-report.json -c tslint.json 'src/**/*.ts'",
     "sonar": "gulp sonar"
   },
   "repository": {
