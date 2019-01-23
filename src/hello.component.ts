@@ -9,7 +9,7 @@ export class HelloComponent {
 
 
     public sayAnotherthing2(): string {
-		return "another thing 2";
+	return "another thing 2";
     }
 
     public sayHello(): string {
