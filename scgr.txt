@@ -1,0 +1,2 @@
+
+    //"lint": "tslint --project tsconfig.json -o lint-report.json -c tslint.json 'src/**/*.ts'",

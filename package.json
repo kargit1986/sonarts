@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "karma start",
-    "lint": "tslint --project tsconfig.json -o lint-report.json -c tslint.json 'src/**/*.ts'",
+    "lint" : "tslint -t json -o lint-report.json --project .",
     "sonar": "gulp sonar"
   },
   "repository": {
@@ -42,3 +42,5 @@
     "karma-phantomjs-launcher": "^1.0.4"
   }
 }
+
+
