@@ -7,8 +7,12 @@ export class HelloComponent {
         return "bye";
     }
 
-    public sayAnother(): string {
+    public sayAnotherthing(): string {
 		return "another thing";
+    }
+
+    public sayAnotherthing2(): string {
+		return "another thing 2";
     }
 
     public sayHello(): string {
