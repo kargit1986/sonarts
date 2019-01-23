@@ -1,0 +1,44 @@
+{
+  "name": "sonar-ts-demo",
+  "version": "1.0.0",
+  "description": "SonarQube Typescript Demo",
+  "main": "dist/hello.component.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "karma start",
+    "lint": "tslint --project tsconfig.json -o lintreport.json -c tslint.json 'src/**/*.ts'",
+    "sonar": "gulp sonar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuriburger/sonar-ts-demo.git"
+  },
+  "keywords": [
+    "sonar",
+    "sonarqube",
+    "typescript"
+  ],
+  "author": "Yuri Burger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuriburger/sonar-ts-demo/issues"
+  },
+  "homepage": "https://github.com/yuriburger/sonar-ts-demo#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.2",
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-typescript": "^3.0.8",
+    "sonarqube-scanner": "^2.0.1",
+    "tslint": "^5.7.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "tslint-sonarts": "^1.0.0",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
