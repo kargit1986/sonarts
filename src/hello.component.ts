@@ -7,7 +7,7 @@ export class HelloComponent {
         return "bye";
     }
 
-    public sayHello(): string {
+    public sayHello1(): string {
         return this.helloService.sayHello();
     }
 }

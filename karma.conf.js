@@ -1,5 +1,6 @@
 module.exports = function(config) {
     config.set({
+	failOnEmptyTestSuite: false,
         frameworks: ["jasmine", "karma-typescript"],
         files: [
             { pattern: "src/**/*.ts" }
